@@ -1,0 +1,27 @@
+.nav {
+  position: absolute;
+  top: 30px;
+  right: 80px;
+}
+
+.nav__links {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 20px;
+  padding: 0;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color 0.2s;
+}
